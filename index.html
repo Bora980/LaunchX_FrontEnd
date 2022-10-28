@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 LaunchX</title>
+</head>
+<body>
+    <!-- Headings -->
+    <h2>Headings</h2>
+    <h1>Bienvenidos Explerers de LATAM</h1>
+    <h2>Bienvenidos Explorers de Colombia</h2>
+    <h3>Bienvenidos Explorers de Perú</h3>
+    <h4>Bienvenidos Explorers de Argentina</h4>
+    <h5>Bienvenidos Explorers de México</h5>
+    <h6>Bienvenidos Explorers de Venezuela</h6>
+
+    <!-- Párrafos -->
+    <h2>Párafos</h2>
+    <p>Este es un párrafo  para los explorers. Este es un párrafo  para los explorers.Este es un párrafo  para los explorers. <br>
+        Este es un párrafo  para los explorers. <br> Este es un párrafo  para los explorers.</p>
+
+    <p>Párrafo 2 Párrafo 2 Párrafo 2 Párrafo 2 Párrafo 2 Párrafo 2 Párrafo 2</p>
+    <p>La información que nosotros queramos poner en un párrfo de HTML, se mostrará aquí <br> Se acaba de hacer un salto de línea para que no se quede todo apretado</p>
+
+    <!-- Links / Enlaces -->
+    <h2>Enlaces</h2>
+    <a href="https://github.com/Launch-X-Latam" target="_blank">Link a LaunchX</a>
+    <br>
+
+    <!-- Imágenes -->
+    <h2>Imágenes / con enlace</h2>
+    <a href="https://github.com/Launch-X-Latam">
+    <img src="https://i.imgur.com/84QT6os.jpeg" alt="Perritos lindos" width="350px" height="350px">
+    </a>
+
+    <!-- Tablas -->
+    <h2>Tablas</h2>
+    <table>
+
+        <tr>
+            <th>Compañia</th>
+            <th>Contacto</th>
+            <th>País</th>
+        </tr>
+        <tr>
+            <td>Coca Cola</td>
+            <td>Maria Anders</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Pepsico</td>
+            <td>Francisco Chang</td>
+            <td>Alemania</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Javier Solorsano</td>
+            <td>España</td>
+        </tr>
+    </table>
+
+    <!-- Listas -->
+    <h2>Listas</h2>
+    <ul>
+        <li>Cafe</li>
+        <li>Arroz</li>
+        <li>leche</li>
+        <li>huevos</li>
+    </ul>
+    <ol>
+        <li>Alumno1</li>
+        <li>Alumno2</li>
+        <li>Alumno3</li>
+    </ol>
+    <dl>
+        <dt>Enchiladas</dt>
+        <dd>- Tortillas frita con salsa, rellena de pollo</dd>
+        <dt>Molletes</dt>
+        <dd>- Bolillos con frijoles y queso</dd>
+    </dl>
+    
+    <!-- Elementos compuestos-->
+    <h2>Select con Input</h2>
+    <label for="refresco">Elige tu refresco favorito</label>
+    <input list="refresco">
+
+    <h2>Input de Fecha</h2>
+    <input type="date" id="fecha1" name="fecha1"><br>
+    <input type="datetime-local" id="fecha2" name="fecha2"><br>
+    <input type="week" id="fecha3" name="fecha3"><br>
+    <input type="time" id="fecha4" name="fecha4"><br>
+    <input type="month" id="fecha5" name="fecha5"><br><br>
+    <hr>
+    <h2>Input de archivo</h2>
+    <input type="file" id="archivo1" name="archivo1" multiple><br><br>
+    <h2>Input de Rango</h2>
+    <input type="color" id="color1" name="color1"><br><br>
+    <h2>Input de Rango</h2>
+    <label for="vol">Volumen (entre 0 y 50):</label><br>
+    <input type="range" id="vol" name="vol" min="0" max="50"><br>
+    <hr>
+    <h2>Input de botón</h2>
+    <input type="reset"><br>
+    <input type="submit"><br>
+    <input type="button" id="boton1" name="boton1" value="Botón 1" onclick="alert('Hola')"><br>
+    <hr>
+    <h2>Ejemplo de Formulario</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <label for="apellido">Apellido</label>
+    <input type="text" id="apellido" name="apellido" form="form1">
+</body>
+</html>
